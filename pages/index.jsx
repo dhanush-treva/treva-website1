@@ -128,7 +128,7 @@ const testimonials = [
   },
   {
     name: 'Aditya Verma', role: 'Founder, District 6', stars: 5,
-    text: 'Our event campaigns run like clockwork now. Treva\'s social team creates content that actually resonates with our crowd. House full, every time.',
+    text: 'Our event campaigns run like clockwork now. Treva\'s social team creates content that actually resonates with our crowd. House full, every time.Great Team',
   },
   {
     name: 'Sneha Kapoor', role: 'Co-founder, Edureka', stars: 5,
@@ -375,7 +375,8 @@ export default function Home() {
             className="text-[#8A9AB0] text-lg md:text-xl mb-10 max-w-2xl mx-auto leading-relaxed"
           >
             We help ambitious brands grow with strategy, design, performance marketing,
-            and intelligent technology all under one roof.
+            and intelligent technology all under one roof, 
+            <span className="font-semibold text-cyan-400">built to scale and drive measurable ROI.</span>          
           </motion.p>
 
           {/* CTAs */}
@@ -392,6 +393,32 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
+            {/* ── CLIENT MARQUEE ───────────────────────────── */}
+      <section className="py-8 bg-[#000000] overflow-hidden relative">
+        <p className="text-center text-[#8A9AB0] text-xs font-600 uppercase tracking-widest mb-6">
+          Trusted by Brands
+        </p>
+
+        {/* LEFT FADE */}
+        <div className="absolute left-0 top-0 bottom-0 w-96 z-10 pointer-events-none"
+          style={{ background: 'linear-gradient(to right, #000000, transparent)' }} />
+
+        {/* RIGHT FADE */}
+        <div className="absolute right-0 top-0 bottom-0 w-96 z-10 pointer-events-none"
+          style={{ background: 'linear-gradient(to left, #000000, transparent)' }} />
+
+        <div className="marquee-wrapper">
+          <div className="marquee-content">
+            {[...clients, ...clients].map((logo, i) => (
+              <div key={i} className="flex items-center justify-center bg-white rounded-xl px-8 py-4"
+                style={{ flexShrink: 0 }}>
+                <img src={logo} className="h-16 w-auto object-contain" style={{ maxWidth: '160px' }} />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
 
       {/* ── SERVICES ─────────────────────────────────── */}
       <section className="py-24 bg-[#000000]">
@@ -414,7 +441,7 @@ export default function Home() {
               <FadeIn key={title} delay={i * 0.08}>
                 <Link
                   href={href}
-                  className="group block bg-[#080C10] border border-[rgba(41,200,213,0.1)] rounded-2xl p-7 card-glow transition-all duration-300 h-full"
+                  className="group block bg-gradient-to-br from-[#06121a] via-[#081018] to-[#0b2a2f] border border-[rgba(41,200,213,0.12)] rounded-2xl p-7 card-glow transition-all duration-300 h-full"
                 >
                   <div className="w-12 h-12 rounded-xl bg-[rgba(41,200,213,0.08)] border border-[rgba(41,200,213,0.15)] flex items-center justify-center mb-5 group-hover:bg-[rgba(41,200,213,0.15)] transition-colors">
                     <Icon size={22} className="text-[#29C8D5]" />
@@ -485,45 +512,19 @@ export default function Home() {
                 { value: '0', label: 'Hidden Costs', sub: 'Transparent pricing always' },
               ].map(({ value, label, sub }, i) => (
                 <FadeIn key={label} delay={i * 0.1}>
-                  <div className="bg-[#000000] border border-[rgba(41,200,213,0.1)] rounded-2xl p-6 card-glow">
-                    <div
-                      className="font-black text-[#29C8D5] mb-2"
-                      style={{ fontSize: 'clamp(2rem, 4vw, 2.8rem)', letterSpacing: '-0.02em' }}
-                    >
-                      {value}
-                    </div>
+                  <div className="bg-[#000000] border border-[rgba(41,200,213,0.1)] rounded-2xl p-8 card-glow testimonial-card relative">
+                  <div
+                    className="font-black text-white mb-2"
+                    style={{ fontSize: 'clamp(2rem, 4vw, 2.8rem)', letterSpacing: '-0.02em' }}
+                  >
+                    {value}
+                  </div>
                     <div className="text-white font-600 text-sm mb-1">{label}</div>
                     <div className="text-[#8A9AB0] text-xs">{sub}</div>
                   </div>
                 </FadeIn>
               ))}
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── CLIENT MARQUEE ───────────────────────────── */}
-      <section className="py-8 bg-[#000000] overflow-hidden relative">
-        <p className="text-center text-[#8A9AB0] text-xs font-600 uppercase tracking-widest mb-6">
-          Trusted by Brands
-        </p>
-
-        {/* LEFT FADE */}
-        <div className="absolute left-0 top-0 bottom-0 w-96 z-10 pointer-events-none"
-          style={{ background: 'linear-gradient(to right, #000000, transparent)' }} />
-
-        {/* RIGHT FADE */}
-        <div className="absolute right-0 top-0 bottom-0 w-96 z-10 pointer-events-none"
-          style={{ background: 'linear-gradient(to left, #000000, transparent)' }} />
-
-        <div className="marquee-wrapper">
-          <div className="marquee-content">
-            {[...clients, ...clients].map((logo, i) => (
-              <div key={i} className="flex items-center justify-center bg-white rounded-xl px-8 py-4"
-                style={{ flexShrink: 0 }}>
-                <img src={logo} className="h-16 w-auto object-contain" style={{ maxWidth: '160px' }} />
-              </div>
-            ))}
           </div>
         </div>
       </section>

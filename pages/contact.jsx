@@ -75,14 +75,14 @@ export default function Contact() {
               <FadeIn>
                 <h2 className="font-800 text-white text-2xl mb-2">We're Based in Bengaluru</h2>
                 <p className="text-[#8A9AB0] text-sm leading-relaxed">
-                  Our team operates from HSR Layout, Bengaluru. While we serve clients across India and globally, we're always just a call or message away.
+                  Our team operates from Bengaluru. While we serve clients across India and globally, we're always just a call or message away.
                 </p>
               </FadeIn>
 
               {[
-                { Icon: Mail, label: 'Email', value: 'info@treva.in', href: 'mailto:info@treva.in' },
-                { Icon: Phone, label: 'Phone', value: '+91 70229 22526', href: 'tel:+919876543210' },
-                { Icon: MapPin, label: 'Address', value: 'HSR Layout, Bengaluru, Karnataka 560102', href: '#' },
+                { Icon: Mail, label: 'Email', value: 'info@treva.in', href: 'mailto:info@treva.in?bcc=tech@treva.in' },
+                { Icon: Phone, label: 'Phone', value: '+91 70229 22526', href: 'tel:+917022922526' },
+                { Icon: MapPin, label: 'Address', value: 'Vijayanagar, Bengaluru, Karnataka 560102', href: 'https://share.google/ZmtaQtW8vRZ7ihfgz' },
                 { Icon: Clock, label: 'Working Hours', value: 'Mon – Fri, 9AM – 6PM IST', href: null },
               ].map(({ Icon, label, value, href }, i) => (
                 <FadeIn key={label} delay={i * 0.08}>
