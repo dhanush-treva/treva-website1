@@ -330,7 +330,7 @@ export default function Home() {
       <SEOHead
         title="Treva | Digital Marketing Agency in Bengaluru | Branding, Ads & Web"
         description="Treva is Bengaluru's top digital marketing agency. We deliver performance marketing, Google & Meta Ads, branding, social media management, SEO, web & app development for high-growth brands."
-        url="https://treva.in"
+        url="https://www.treva.in"
         keywords="digital marketing agency Bengaluru, digital marketing agency Bangalore, performance marketing agency India, Google Ads agency, Meta Ads agency, social media marketing Bengaluru, branding agency Bangalore, SEO agency Bengaluru, web development agency India, full service digital agency"
       />
 

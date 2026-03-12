@@ -64,7 +64,7 @@ export default function Products() {
       <SEOHead
         title="Products Treva OS, Treva Agent, Make My Cake & EAMS"
         description="Explore Treva's upcoming product suite: Treva OS business platform, Treva Agent AI marketing assistant, Make My Cake marketplace, and Treva EAMS analytics suite."
-        url="https://treva.in/products"
+        url="https://www.treva.in/products"
       />
 
       {/* Hero */}

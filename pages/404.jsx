@@ -9,7 +9,7 @@ export default function NotFound() {
       <SEOHead
         title="404 – Page Not Found | Treva"
         description="The page you're looking for doesn't exist. Head back to Treva's homepage."
-        url="https://treva.in/404"
+        url="https://www.treva.in/404"
       />
       <section className="min-h-screen bg-[#000000] flex items-center justify-center relative overflow-hidden">
         <div

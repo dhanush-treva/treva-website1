@@ -79,7 +79,7 @@ export default function Blog() {
       <SEOHead
         title="Blog AI, Marketing & Technology Insights"
         description="Treva's blog covers the latest in AI marketing, GEO, performance marketing, web development, and digital strategy for modern brands in 2026."
-        url="https://treva.in/blog"
+        url="https://www.treva.in/blog"
       />
 
       {/* Hero */}

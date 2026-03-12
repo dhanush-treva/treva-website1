@@ -45,7 +45,7 @@ export default function About() {
       <SEOHead
         title="About Treva Our Story, Mission & Values"
         description="Learn about Treva's story, mission, and values. Bengaluru's full-service digital agency blending creativity with intelligent technology."
-        url="https://treva.in/about"
+        url="https://www.treva.in/about"
       />
 
       {/* Hero */}

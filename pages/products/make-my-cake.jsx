@@ -44,7 +44,7 @@ export default function MakeMyCake() {
       <SEOHead
         title="Make My Cake  Artisan Cakes Delivered Near You"
         description="Make My Cake is a coming-soon marketplace connecting cake lovers with artisan bakers. Smart discovery, custom orders, and real-time delivery tracking."
-        url="https://treva.in/products/make-my-cake"
+        url="https://www.treva.in/products/make-my-cake"
       />
 
       <section className="pt-32 pb-20 bg-[#000000] relative overflow-hidden">

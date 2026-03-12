@@ -45,7 +45,7 @@ export default function TrevaEAMS() {
       <SEOHead
         title="Treva EAMS  Enterprise Analytics & Management Suite"
         description="Treva EAMS is a coming-soon enterprise analytics and asset management platform with unified reporting, AI forecasting, and multi-brand support."
-        url="https://treva.in/products/treva-eams"
+        url="https://www.treva.in/products/treva-eams"
       />
 
       <section className="pt-32 pb-20 bg-[#000000] relative overflow-hidden">

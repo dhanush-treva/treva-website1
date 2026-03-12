@@ -4,7 +4,7 @@ export default function SEOHead({
   title = 'Treva, Where Creativity Meets Technology',
   description = 'Treva is a full-service digital agency in Bengaluru helping brands grow with strategy, design, performance marketing, and intelligent technology solutions.',
   image = '/og-image.jpg',
-  url = 'https://treva.in',
+  url = 'https://www.treva.in',
   type = 'website',
   keywords = 'digital marketing agency Bengaluru, performance marketing, social media marketing, Google Ads, Meta Ads, SEO agency India, branding agency, web development, app development, digital marketing company Bangalore',
 }) {
@@ -46,7 +46,7 @@ export default function SEOHead({
             name: 'Treva',
             serviceType: 'Digital Marketing Agency',
             description,
-            url: 'https://treva.in',
+            url: 'https://www.treva.in',
             telephone: '+91-70229-22526',
             email: 'info@treva.in',
             address: {

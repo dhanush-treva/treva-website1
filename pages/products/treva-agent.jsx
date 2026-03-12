@@ -44,7 +44,7 @@ export default function TrevaAgent() {
       <SEOHead
         title="Treva Agent  Your Autonomous AI Marketing Agent"
         description="Treva Agent is a 24/7 autonomous AI marketing agent that qualifies leads, monitors campaigns, sends emails, and books meetings without human intervention."
-        url="https://treva.in/products/treva-agent"
+        url="https://www.treva.in/products/treva-agent"
       />
 
       <section className="pt-32 pb-20 bg-[#000000] relative overflow-hidden">

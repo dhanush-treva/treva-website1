@@ -44,7 +44,7 @@ export default function TrevaOS() {
       <SEOHead
         title="Treva OS  Your Brand's All-in-One Operating System"
         description="Treva OS is a coming-soon all-in-one business platform for managing campaigns, analytics, content, and CRM with AI-powered insights."
-        url="https://treva.in/products/treva-os"
+        url="https://www.treva.in/products/treva-os"
       />
 
       {/* Hero */}

@@ -41,7 +41,7 @@ export default function Contact() {
       <SEOHead
         title="Contact Treva Book a Free Strategy Call"
         description="Get in touch with Treva to book a free strategy call. We serve brands in Bengaluru and across India with full-service digital marketing and technology solutions."
-        url="https://treva.in/contact"
+        url="https://www.treva.in/contact"
       />
 
       {/* Hero */}
